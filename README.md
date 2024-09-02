@@ -27,15 +27,15 @@ La arquitectura de esta solución se muestra a continuación:
 ### 1. Clonar el Repositorio
 
 ```bash
-git clone https://github.com/tu-repo-nombre.git
-cd tu-repo-nombre
+git clone https://github.com//kinesis_eventbridge_lambda_cross_account.git
 ```
 
-### 2. Instalar Dependencias
+### 2. Instalar Dependencias Cuenta Origen
 
 Navega al directorio del proyecto CDK e instala las dependencias necesarias:
 
 ```bash
+cd /kinesis_eventbridge_lambda_cross_account/destino/cdk-lambda-origin-account
 npm install
 ```
 
@@ -51,12 +51,10 @@ Asegúrate de reemplazar `ID_CUENTA` y `REGION` con el ID de tu cuenta y región
 
 ### 4. Desplegar el Stack de CDK
 
-Despliega el stack de CDK en ambas cuentas, origen y destino:
-
 ```bash
 cdk deploy
 ```
-<p style="background-color: lightblue;">Debes desplegar la infraestructura en 2 cuentas de aws diferentes</p>
+<p style="background-color: lightblue;"> Despliega el stack de CDK en ambas cuentas, origen y destino en 2 cuentas de aws diferentes </p>
 
 
 
