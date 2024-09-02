@@ -1,0 +1,26 @@
+{
+  "name": "cdk-lambda-origin-account",
+  "version": "0.1.0",
+  "bin": {
+    "cdk-lambda-origin-account": "bin/cdk-lambda-origin-account.js"
+  },
+  "scripts": {
+    "build": "echo \"The build step is not required when using JavaScript!\" && exit 0",
+    "cdk": "cdk",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "aws-cdk": "2.154.1",
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-events": "^1.203.0",
+    "@aws-cdk/aws-events-targets": "^1.203.0",
+    "@aws-cdk/aws-iam": "^1.203.0",
+    "@aws-cdk/aws-kinesis": "^1.203.0",
+    "@aws-cdk/aws-lambda": "^1.203.0",
+    "@aws-cdk/aws-pipes": "^1.203.0",
+    "aws-cdk-lib": "2.154.1",
+    "constructs": "^10.0.0"
+  }
+}
