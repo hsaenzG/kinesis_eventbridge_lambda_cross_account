@@ -54,7 +54,8 @@ Asegúrate de reemplazar `ID_CUENTA` y `REGION` con el ID de tu cuenta y región
 ```bash
 cdk deploy
 ```
-<p style="background-color: lightblue;"> Despliega el stack de CDK en ambas cuentas, origen y destino en 2 cuentas de aws diferentes </p>
+**Importante**:
+<span style="background-color: lightblue;"> Despliega el stack de CDK en ambas cuentas, origen y destino en 2 cuentas de aws diferentes </span>
 
 
 
